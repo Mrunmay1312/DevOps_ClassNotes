@@ -189,7 +189,7 @@ i
      service: name=tomcat state=restarted
 
 Syntax check:
-
+   make sure to be in ec2-user
 # ansible-playbook playbook1.yml --syntax-check
 
 # ansible-playbook playbook1.yml
