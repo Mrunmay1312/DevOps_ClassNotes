@@ -141,6 +141,8 @@ back to ACM
 Modules in ANSIBLE
 
 1. adhoc ping command
+        switch to ec2-user:
+          su - ec2-user
 
 # ansible -m ping webservers
 
