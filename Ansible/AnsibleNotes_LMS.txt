@@ -98,7 +98,7 @@ CREATE INVENTORY ON ACM and ADD Host details
 Scroll down to end and add
 
 [webservers]
-paste private ip of host ==> 172.31.39.169
+paste private ip of slave ==> 172.31.39.169
 
 :wq!
 
@@ -122,7 +122,7 @@ ssh key will be generated
 
 Step 2: copy key on to the host
 
-	# ssh-copy-id -i ec2-user@private ip of host
+	# ssh-copy-id -i ec2-user@private ip of slave
 
 press yes
 enter passowrd ==>
