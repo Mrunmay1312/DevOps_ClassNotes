@@ -1,6 +1,0 @@
-
-[ansible-server]
-localhost
-
-[kube]
-172.31.39.56
